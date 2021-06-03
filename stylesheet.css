@@ -1,0 +1,31 @@
+body {
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+   
+  }
+  /*tablet users*/
+   @media only screen and (max-width: 768px) and (min-width: 300px){
+    body {
+      background-color: green;
+    }
+    #medium{
+        font-size:30px;
+    }
+  }
+  /*laptop users*/
+   @media only screen and (min-width: 768px) {
+    body {
+      background-color: blue;
+    }
+    #small{
+        display:none
+    }
+    #medium{
+        display:none;
+        }
+    #large{
+        font-size: 50px;
+    }
+  }
+
